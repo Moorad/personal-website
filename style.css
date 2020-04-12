@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+}
+
+.fullscreen {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.image {
+	background: url('assets/background.jpg') /*linear-gradient(45deg,#C6FFDD, #FBD786, #f7797d)*/; 
+	background-size: cover;
+}
+
+#canvas {
+	position: absolute;
+	top:0;
+	height: 100vh;
+}
+
+.profile-image {
+	z-index: 1000;
+	
+
+	
+	background-image: url('https://i.imgur.com/bSpvJH8.jpg');
+	height: 10rem;
+	width: 10rem;
+	background-size: cover;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.profile-container {
+	position: absolute;
+	left:calc(50% - 5rem);
+	right: 0;
+}
